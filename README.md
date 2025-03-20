@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=GilGarate21212743/sistema-presadepredador-lotkavolterra)
 
-# Gemelos Digitales. Práctica 2: Sistema Presa-Depredador del modelo Votka-Volterra [GilGarate-21212743]
+# Gemelos Digitales. Práctica 2: Sistema Presa-Depredador del modelo Lotka-Volterra [GilGarate-21212743]
 
 ## Autor
 Gil Gárate Carlos Andrés 
