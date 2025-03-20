@@ -19,12 +19,11 @@ abstract: |-
   Instituto Tecnologico de Tijuana
   Ingenieria Biomédica
   Gemelos Digitales
-  Practica 1 Leyes de crecimiento exponencial 
+  Practica 2 Sistema presa depredador lotka volterra
 keywords:
-  - Ley de crecimiento exponencial
-  - Metodo de Heun
-  - Nanohidrogeles
-  - Tasas de liberacion de farmaco
-  - Farmacocinetica
-  - Protocolo basado en modelos
+  - Modelo Lotka-Volterra
+  - Simulación numérica  
+  - Ecuaciones diferenciales
+  - Dinámica poblacional
+  - Interacción depredador-presa
 license: BSD-2-Clause
