@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MATLAB
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Carlos Andres
+    family-names: Gil Garate
+    email: l21212743@tectijuana.edu.mx
+    affiliation: 'Tecnológico Nacional de México '
+repository-code: >-
+  https://github.com/GilGarate21212743/gemelosdigitales-leyes-de-crecimiento-exponencial-gilgarate-21212743
+abstract: |-
+  Tecnologico Nacional de México
+  Instituto Tecnologico de Tijuana
+  Ingenieria Biomédica
+  Gemelos Digitales
+  Practica 1 Leyes de crecimiento exponencial 
+keywords:
+  - Ley de crecimiento exponencial
+  - Metodo de Heun
+  - Nanohidrogeles
+  - Tasas de liberacion de farmaco
+  - Farmacocinetica
+  - Protocolo basado en modelos
+license: BSD-2-Clause
