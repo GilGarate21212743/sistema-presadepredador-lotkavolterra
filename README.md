@@ -8,13 +8,15 @@ Gil Gárate Carlos Andrés
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l21212743@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+En esta práctica se analiza el modelo matemático de Lotka-Volterra para sistemas presa-depredador, el cual describe la dinámica poblacional de dos especies en interacción. A través de la implementación en MATLAB, se exploran distintos métodos numéricos para resolver las ecuaciones diferenciales que rigen el comportamiento de las poblaciones, permitiendo analizar su estabilidad y evolución en el tiempo. El modelo de Lotka-Volterra se basa en un sistema de ecuaciones diferenciales ordinarias (EDOs) que describe cómo cambia la población de presas y depredadores en función de ciertos parámetros, como las tasas de crecimiento, la tasa de depredación y la eficiencia de conversión de recursos. La implementación de este modelo en MATLAB permite visualizar la evolución de ambas especies y comprender los factores que influyen en su equilibrio o extinción.
+
+Para la solución numérica del sistema, se emplean distintos métodos de integración. El método de Euler, una aproximación explícita de primer orden, proporciona una solución básica pero propensa a errores numéricos. Para mejorar la precisión, se utiliza el método de Heun, una variante de segundo orden que refina la estimación de la trayectoria de las poblaciones. Asimismo, se emplea el método de Runge-Kutta de cuarto orden, el cual ofrece una solución más precisa y estable, ampliamente utilizado en la simulación de sistemas dinámicos. A partir de las simulaciones realizadas, se analizan los ciclos poblacionales característicos del modelo, observando cómo la población de presas crece en ausencia de depredadores, mientras que la de depredadores disminuye sin una fuente de alimento. Se identifican puntos de equilibrio y se examina la estabilidad del sistema mediante distintas condiciones iniciales. Finalmente, se discute la aplicabilidad del modelo en escenarios ecológicos reales y sus limitaciones frente a factores no considerados, como la competencia inter-específica y la variabilidad ambiental.
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1. Desarrollar un código en MATLAB para la simulación del modelo Lotka-Volterra.
+2. Comparar la precisión y estabilidad de distintos métodos de integración numérica.
+3. Analizar la dinámica poblacional y los puntos de equilibrio del modelo.
+4. Discutir la aplicabilidad y limitaciones del modelo de Lotka-Volterra.
 
 ## Docente
 Dr. Paul A. Valle
@@ -23,5 +25,5 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
-
+[2] Levin, S. A., Hallam, T. G., & Gross, L. J. (Eds.). Applied mathematical ecology (Vol. 18). Springer Science & Business Media. (2012).
 
