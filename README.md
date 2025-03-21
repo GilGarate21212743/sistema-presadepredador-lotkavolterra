@@ -25,5 +25,6 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
+
 [2] Levin, S. A., Hallam, T. G., & Gross, L. J. (Eds.). Applied mathematical ecology (Vol. 18). Springer Science & Business Media. (2012).
 
